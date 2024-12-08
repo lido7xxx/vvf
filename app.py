@@ -55,7 +55,7 @@ def subscribe_to_promotion(number, password, repetitions):
     except Exception as e:
         return {"error": str(e)}
 
-@app.route("/vf", methods=["GET"])
+@app.route("/vvf", methods=["GET"])
 def api_handler():
     try:
         number = str(request.args.get("num"))
